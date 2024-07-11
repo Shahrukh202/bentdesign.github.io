@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+.menu{
+    margin-block: 10px;
+}
+.menu ul{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 20px;
+    gap: 10px;
+    list-style: none;
+    &>li>a{
+        text-decoration: none;
+        background-color: black;
+        color: white;
+        padding-inline:10px;
+        padding-block: 5px;
+        border-radius: 20px;
+}
+}
+.mainhead{
+ width: 60%;
+ padding: 0 20px;
+&>h1{
+font-size: 100px;
+}
+}
+.menu1{
+    padding: 20px 20px;
+    &>ul{
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        &>li>a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
+
+.section-image img{
+    height:35rem;
+    width: 100%;
+    object-fit: cover;
+}
+.about{
+    display: flex;
+    border-bottom: 1px solid black;
+    margin: 0 20px;
+}
+.abouthead{
+    width: 66%;
+    padding: 15px 0px;
+    padding-right: 30px;
+    
+    
+    
+    &>h1{
+        font-size: 70px;
+        border-right: 1px solid black;
+    }
+}
+.head2{
+    padding: 15px 20px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+   
+     
+}
+.icon{
+    display: flex;
+    gap: 10px;
+    
+}
+.lastsec{
+    display: flex;
+    border-bottom: 1px solid black;
+    margin-inline: 10px;
+    
+    
+    
+   
+}
+.list{
+    padding: 20px 20px;
+    width: 360px;
+}
+.list ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    
+    
+    &>li>a{
+        color: black;
+        text-decoration: none;
+}
+}
+.list2{
+    padding: 0px 20px;
+    border-left: 1px solid black;
+    height: 250px;
+    margin-block: 15px;
+     
+    
+    &>.list3{
+        display: flex;
+        gap: 150px;
+        margin-bottom: 20px;
+        width: 900px;
+        
+    }
+    &>.list4{
+        display: flex;
+        gap: 150px;
+        padding-block: 10px;
+        border-top: 1px solid black;
+    }
+    
+    
+}
+.head{
+    width: 350px;
+    /* border-right: 1px solid black; */
+    &>p{
+        padding: 10px 0;
+    }
+}
+.head1{
+    width: 400px;
+    border-left: 1px solid black;
+    margin-inline: -60px;
+    padding-left: 30px;
+    &>p{
+        padding: 10px 0;
+    }
+}
+.head3{
+    width:350px;
+    &>p{
+        padding: 10px 0;
+    }
+}
+.head4{
+    width: 400px;
+    border-left: 1px solid black;
+    margin-inline: -60px;
+    padding-left: 30px;
+    &>p{
+        padding: 10px 0;
+    }
+}
+.extra{
+    height: 10px;
+}
